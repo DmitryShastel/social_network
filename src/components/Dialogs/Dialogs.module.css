@@ -27,7 +27,7 @@
     display: flex;
 }
 
-button {
+.b {
     background-color:yellow;
     border-radius: 5px;
     border: none;
@@ -40,6 +40,6 @@ button {
     cursor: pointer;
 }
 
-textarea {
+.t {
     margin: 5px;
 }
