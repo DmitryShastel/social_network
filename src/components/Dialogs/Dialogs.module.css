@@ -26,3 +26,20 @@
 .dialog {
     display: flex;
 }
+
+button {
+    background-color:yellow;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+textarea {
+    margin: 5px;
+}
