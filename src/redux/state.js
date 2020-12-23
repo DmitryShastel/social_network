@@ -1,3 +1,8 @@
+let store = {
+    
+}
+
+
 let renderEntireTree = () => {
     console.log('State was changed')
 }
