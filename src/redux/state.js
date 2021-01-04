@@ -1,64 +1,62 @@
 let store = {
-    
-}
-
-
-let renderEntireTree = () => {
-    console.log('State was changed')
-}
-
-let state = {
-    profilePage: {
-        posts: [
-            {id: 1, message: 'Hi, how are you', likesCount: 12},
-            {id: 2, message: 'It\'s my first post', likesCount: 11}
-        ],
-        newPostText: ''
+    _state: {
+        profilePage: {
+            posts: [
+                {id: 1, message: 'Hi, how are you', likesCount: 12},
+                {id: 2, message: 'It\'s my first post', likesCount: 11}
+            ],
+            newPostText: ''
         },
-    dialogsPage: {
-        messages: [
-            {id: 1, message: 'Hi'},
-            {id: 2, message: 'Yo'},
-            {id: 3, message: 'Yo'},
-            {id: 4, message: 'Yo'},
-            {id: 5, message: 'Yo'},
-        ],
+        dialogsPage: {
+            messages: [
+                {id: 1, message: 'Hi'},
+                {id: 2, message: 'Yo'},
+                {id: 3, message: 'Yo'},
+                {id: 4, message: 'Yo'},
+                {id: 5, message: 'Yo'},
+            ],
 
-        dialogs:  [
-            {id: 1, name: 'Dimych'},
-            {id: 2, name: 'Andrew'},
-            {id: 3, name: 'Sveta'},
-            {id: 4, name: 'Sasha'},
-            {id: 5, name: 'Viktor'},
-            {id: 6, name: 'Valera'},
-        ],
+            dialogs:  [
+                {id: 1, name: 'Dimych'},
+                {id: 2, name: 'Andrew'},
+                {id: 3, name: 'Sveta'},
+                {id: 4, name: 'Sasha'},
+                {id: 5, name: 'Viktor'},
+                {id: 6, name: 'Valera'},
+            ],
+        },
+        sidebar :{
+            friends: [
+                {name: "Andrew"},
+                {name: "Artem"},
+                {name: "Alexander"},
+            ]}
     },
-    sidebar :{
-        friends: [
-       {name: "Andrew"},
-       {name: "Artem"},
-       {name: "Alexander"},
-    ]}
+    getState() {
+        return this._state;
+    },
+    renderEntireTree () {
+        console.log('State was changed');
+    },
+    addPost  ()  {
+        let newPost = {
+            id: 5,
+            message: this._state.profilePage.newPostText,
+            likesCount: 0
+        };
+        this._state.profilePage.posts.push(newPost);
+        this._state.profilePage.newPostText = '';
+        this._renderEntireTree(this._state);
+    },
+    updateNewPostText  (newText)  {
+        this._state.profilePage.newPostText = newText;
+        this._renderEntireTree(this._state);
+    },
+    subscribe  (observer) {
+        this._renderEntireTree = observer
+    }
 }
+export default store;
+window.store = store;
 
-export const addPost = () => {
-    let newPost = {
-        id: 5,
-        message: state.profilePage.newPostText,
-        likesCount: 0
-    };
-    state.profilePage.posts.push(newPost);
-    state.profilePage.newPostText = '';
-    renderEntireTree(state);
-}
-
-export const updateNewPostText = (newText) => {
-    state.profilePage.newPostText = newText;
-    renderEntireTree(state);
-}
-
-export const subscribe = (observer) => {
-    renderEntireTree = observer
-}
-
-export default state;
+// store OOP
