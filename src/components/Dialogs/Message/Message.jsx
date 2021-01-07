@@ -14,8 +14,8 @@ const Message = (props) => {
         <div className={s.dialog}>
             <img src='https://iconarchive.com/download/i75883/martz90/circle/messages.ico'/>
             {props.message}
-            <textarea className={s.t} ref={newMessageElement}></textarea>
-            <button className={s.b} onClick={addMessage}>add</button>
+         {/*   <textarea className={s.t} ref={newMessageElement}></textarea>
+            <button className={s.b} onClick={addMessage}>add</button>*/}
 
         </div>
     )
