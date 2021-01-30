@@ -3,10 +3,10 @@ import s from './ProfileInfo.module.css';
 
 const ProfileInfo = () => {
     return (
-        <div>
-            <div>
-                <img
-                    src='https://media.gettyimages.com/photos/mountains-and-forest-in-winter-yoho-national-park-field-british-picture-id966225494?s=612x612'/>
+        <div >
+            <div >
+                <img className={s.img}
+                    src='https://philhollett.com.au/wp-content/uploads/DUN36e-Old-Dunsborough_1500px.jpg'/>
             </div>
             <div className={s.descriptionBlock}>
                 ava + description
