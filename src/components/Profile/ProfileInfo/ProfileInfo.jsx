@@ -3,10 +3,10 @@ import s from './ProfileInfo.module.css';
 
 const ProfileInfo = () => {
     return (
-        <div >
+        <div className={s.wrapper}>
             <div >
                 <img className={s.img}
-                    src='https://philhollett.com.au/wp-content/uploads/DUN36e-Old-Dunsborough_1500px.jpg'/>
+                    src='https://cdn-cms.pgimgs.com/news/2015/07/Maldives-beach.jpg'/>
             </div>
             <div className={s.descriptionBlock}>
                 ava + description
