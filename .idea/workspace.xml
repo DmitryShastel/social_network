@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="81034f75-93dc-4d7f-b571-13a68e654fa2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Header/HeaderContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/auth-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1j2jyYyhxyvejUrSFN7qXsdeMaS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Header" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Dockerfile" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\incubator\social_network(js)\src\components\Header" />
+      <recent name="C:\incubator\social_network(js)\src\components\Profile\ProfileInfo" />
+      <recent name="C:\incubator\social_network(js)\src\components\Users" />
+      <recent name="C:\incubator\social_network(js)\src\redux" />
+      <recent name="C:\incubator\social_network(js)\src\components\Dialogs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\incubator\social_network(js)\src\assets" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81034f75-93dc-4d7f-b571-13a68e654fa2" name="Default Changelist" comment="" />
+      <created>1603009335393</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603009335393</updated>
+      <workItem from="1603009338483" duration="16000" />
+      <workItem from="1603009509503" duration="84000" />
+      <workItem from="1603009594906" duration="72000" />
+      <workItem from="1603009668398" duration="116000" />
+      <workItem from="1603009785355" duration="1861000" />
+      <workItem from="1603503240884" duration="19224000" />
+      <workItem from="1603940181911" duration="18000" />
+      <workItem from="1603940932207" duration="16000" />
+      <workItem from="1605198710613" duration="39000" />
+      <workItem from="1607844306489" duration="5347000" />
+      <workItem from="1607850973890" duration="4281000" />
+      <workItem from="1608048781838" duration="4257000" />
+      <workItem from="1608083672648" duration="553000" />
+      <workItem from="1608084471156" duration="114000" />
+      <workItem from="1608430550079" duration="2471000" />
+      <workItem from="1608745113512" duration="1902000" />
+      <workItem from="1609682705002" duration="12572000" />
+      <workItem from="1609868523850" duration="13000" />
+      <workItem from="1609948337289" duration="9516000" />
+      <workItem from="1610160181745" duration="83000" />
+      <workItem from="1610648397498" duration="40000" />
+      <workItem from="1611167459573" duration="5213000" />
+      <workItem from="1611424154656" duration="20000" />
+      <workItem from="1611586963104" duration="53000" />
+      <workItem from="1611768896425" duration="1143000" />
+      <workItem from="1611770179137" duration="3438000" />
+      <workItem from="1611993932547" duration="8526000" />
+      <workItem from="1612019050183" duration="6122000" />
+      <workItem from="1612106721768" duration="6497000" />
+      <workItem from="1612677712166" duration="72000" />
+      <workItem from="1612988414264" duration="745000" />
+      <workItem from="1612992515177" duration="5779000" />
+      <workItem from="1613358325825" duration="757000" />
+      <workItem from="1613362245154" duration="5148000" />
+      <workItem from="1613370149027" duration="43000" />
+      <workItem from="1613489729122" duration="8875000" />
+      <workItem from="1614266809794" duration="166000" />
+      <workItem from="1614370670771" duration="40000" />
+      <workItem from="1614370764194" duration="1937000" />
+      <workItem from="1614372930261" duration="2338000" />
+      <workItem from="1614591523730" duration="1428000" />
+      <workItem from="1614603755465" duration="2395000" />
+      <workItem from="1614633490929" duration="698000" />
+      <workItem from="1614792957516" duration="1221000" />
+      <workItem from="1615093644212" duration="227000" />
+      <workItem from="1616479663530" duration="8869000" />
+      <workItem from="1616698290789" duration="288000" />
+      <workItem from="1616863050902" duration="4770000" />
+      <workItem from="1617033344310" duration="1782000" />
+      <workItem from="1617295259865" duration="5304000" />
+      <workItem from="1617551748704" duration="4306000" />
+      <workItem from="1618029961611" duration="63000" />
+      <workItem from="1618035927356" duration="8615000" />
+      <workItem from="1618934122323" duration="2798000" />
+      <workItem from="1623079412550" duration="4107000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="472" y="125" key="FileChooserDialogImpl" timestamp="1618938770942">
+      <screen x="64" y="0" width="1216" height="720" />
+    </state>
+    <state x="472" y="125" key="FileChooserDialogImpl/64.0.1216.720@64.0.1216.720" timestamp="1618938770942" />
+    <state width="1180" height="243" key="GridCell.Tab.0.bottom" timestamp="1623081231574">
+      <screen x="64" y="0" width="1216" height="720" />
+    </state>
+    <state width="1180" height="243" key="GridCell.Tab.0.bottom/64.0.1216.720@64.0.1216.720" timestamp="1623081231574" />
+    <state width="1180" height="243" key="GridCell.Tab.0.center" timestamp="1623081231574">
+      <screen x="64" y="0" width="1216" height="720" />
+    </state>
+    <state width="1180" height="243" key="GridCell.Tab.0.center/64.0.1216.720@64.0.1216.720" timestamp="1623081231574" />
+    <state width="1180" height="243" key="GridCell.Tab.0.left" timestamp="1623081231574">
+      <screen x="64" y="0" width="1216" height="720" />
+    </state>
+    <state width="1180" height="243" key="GridCell.Tab.0.left/64.0.1216.720@64.0.1216.720" timestamp="1623081231574" />
+    <state width="1180" height="243" key="GridCell.Tab.0.right" timestamp="1623081231574">
+      <screen x="64" y="0" width="1216" height="720" />
+    </state>
+    <state width="1180" height="243" key="GridCell.Tab.0.right/64.0.1216.720@64.0.1216.720" timestamp="1623081231574" />
+    <state x="330" y="171" key="run.anything.popup" timestamp="1616487224983">
+      <screen x="64" y="0" width="1216" height="720" />
+    </state>
+    <state x="330" y="171" key="run.anything.popup/64.0.1216.720@64.0.1216.720" timestamp="1616487224983" />
+  </component>
+</project>
